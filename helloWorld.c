@@ -5,7 +5,7 @@
 #include <stdio.h>
 
 int main(int argc, char **argv){
-	/* Print using system call*/
+	/* Print using system call */
 	write(1, "Hello World\n", 12);
 	/* can also use C standard library for printing to file descriptors or 
 	strings. Need to use:
